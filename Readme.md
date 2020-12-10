@@ -1,6 +1,14 @@
 # do-ddns
 A small container to keep DNS records up to date with your external IP.
 
+## Build
+```
+docker build -t <tag>/do-ddns:latest .
+```
+
+## Docker image
+https://hub.docker.com/repository/docker/kristaxox/do-ddns
+
 ## Example deployment in k8s
 I personally run a k3s node/cluster VM in my rack and run a few of these deployments for each of my domains.
 
